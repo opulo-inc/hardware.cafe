@@ -13,8 +13,6 @@ layout: single
 
 ---
 
-**Disclaimer**: Nothing on this website should be considered legal advice. You should always consult with a lawyer and a certification house in regards to the tests you are legally required to complete. Everything on this site should be considered anecdotal advice, and has no guarantee of being factually correct.
-
 ## Finding a Cert House
 
 When looking for a company that can perform the tests you need, there's a number of things you should be considering:
@@ -44,6 +42,8 @@ It's important that the quote also contains a formal test report, and the Declar
 
 In general, it's good to have a few quotes from a few different certification houses.
 
+**You should get a quote before even designing your product.** When desigining your device, you should know exactly which directives you need to comply with. Don't let yourself be surprised by a test that you need to pass that you didn't consider during the design phase.
+
 ## Should you do Pre-Testing?
 
 Because it's so expensive to book testing time, many folks will do "pre-testing," or a slightly less accurate test that still gives you a good idea about how well you'll perform in the actual test. This lets you try a number of things at a much lower cost, and when you have high confidence that you'll pass the real thing, then you pay for the expensive chamber time.
@@ -65,7 +65,7 @@ It can also be good to bring:
 - Soldering iron and spare components of different values if a component hot-swap on a PCB is necessary
 - Mobile electrical tool set
 - Many extra power supplies, IEC cables
-- Aluminum tape and Aluminum foil
+- Aluminum tape and Aluminum foil (used for testing shielding certain parts of the device during RE to determine what is kicking out interference)
 - Electrical tape
 - Anything needed to update the functionality of your device (eg router as an access point for a wireless device, monitor and keyboard for changing configuration, programming cable for flashing different versions of firmware)
 
@@ -79,12 +79,4 @@ In general, tests will be run in order of least likely to damage the device, to 
 
 It's incredibly likely that you'll fail your first time getting a device tested. Passing is very hard to do, and approximately half of the time, a device requires at least a second test.
 
-Solving the issue that caused your device to fail is greatly dependent on which test it is. Ask your technician what they think would be helpful to solve the problem, as they see hundreds of similar devices pass and fail, so they're well attuned to what about your device is likely causing the issue. This should be your main thread when addressing an issue.
-
-RE
-
-RI
-
-CE
-
-CI
+Solving the issue that caused your device to fail is greatly dependent on which test it is. Ask your technician what they think would be helpful to solve the problem, as they see hundreds of similar devices pass and fail, so they're well attuned to what about your device is likely causing the issue. They should be your main source of information when addressing an issue.

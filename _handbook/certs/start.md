@@ -13,8 +13,6 @@ layout: single
 
 ---
 
-**Disclaimer**: Nothing on this website should be considered legal advice. You should always consult with a lawyer and a certification house in regards to the tests you are legally required to complete. Everything on this site should be considered anecdotal advice, and has no guarantee of being factually correct.
-
 ## Overview
 
 Getting certification is one of the most daunting parts of shipping a hardware product and it's easy to rapidly go from zero to overwhelming! It typically costs a tremendous amount of money per round of testing, with it being reported that [approximately 50% of products fail their first time](https://emcfastpass.com/ce-mark-guide-electronics/).
@@ -23,8 +21,7 @@ Most of these tests have to do with Electromagnetic Compatibility (EMC) which is
 
 This section is broken into a few parts:
 
-- Types of Certifications
-- Determining What Tests and Certs You Need
+- Types of Certifications and Tests
 - Design to Pass
 - Going in for Testing
 - Marking Your Device

@@ -8,14 +8,12 @@
 #<span class="badge badge-danger">Paid Service</span>
 #<span class="badge badge-info">Free Service</span>
 
-title: "Types of Certifications"
+title: "Types of EMC Certs and Tests"
 layout: single
 
 ---
 
-**Disclaimer**: Nothing on this website should be considered legal advice. You should always consult with a lawyer and a certification house in regards to the tests you are legally required to complete. Everything on this site should be considered anecdotal advice, and has no guarantee of being factually correct.
-
-This page is going to give you an overview of the main types of certifications that you should be aware of while marketing your product.
+This page is going to give you an overview of the main types of EMC certifications that you should be aware of that are required before marketing your product.
 
 ## FCC
 
@@ -25,6 +23,8 @@ FCC compliance comes in two types:
 
 1. **Supplier's Declaration of Conformity** - This is what's called "self-declaration," where the manufacturer itself declares that the device is compliant, and there isn't a formal filing with the FCC. However, the manufacturer is still required to supply testing data that demonstrates that it's compliant; you can't just write up this document and assume you're set to go. This type of certification is acceptable for a large number of devices, generally ones that are less likely to cause issues. 
 2. **FCC Certification** - This is the stricter type of certification where you're actually filing with the FCC. This type is *required* for "intentional radiators," or devices that have an antenna (think wifi, bluetooth, etc). These devices are issued an FCC ID which is a unique identification number for that device.
+
+[(Source)](https://www.fcc.gov/general/equipment-authorization-procedures)
 
 ## CE
 The CE marking indicates that a product has been assessed by the manufacturer and deemed to meet EU safety, health and environmental protection requirements. It is required for products manufactured anywhere in the world that are then marketed in the EU. [Trade.gov](https://www.trade.gov/ce-marking) [Europa.eu](https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm)
@@ -79,3 +79,7 @@ So, the four quadrants are:
   - How strong of electromagnetic waves does the device kick out? These tests are effectively checking to make sure the device isn't too noisy and won't affect other devices in the vicinity. These tests are typically the hardest to pass.
 - **Conducted Emissions**
   - How strong of electrical noise does the device kick back into connected wires? This typically happens with power, where the mains power source that the device is connected to is checked for any interference caused by the device.
+
+## Which Do I Need?
+
+This is *not* something that can easily be answered on this site. The *only* way to know for sure what tests and agencies you must comply with is by getting the advice of a testing house. It's their job to figure out what you need to do in order to be compliant. Email a few testing houses and get quotes, ask questions, and see what type of testing they sign you up for.

@@ -1,6 +1,6 @@
 ---
-title: "Getting the LumenPnP Through Certification"
-excerpt: "Getting the LumenPnP Through Certification"
+title: "Taking the LumenPnP v4 Through Certification"
+excerpt: "Taking the LumenPnP v4 Through Certification"
 author: Stephen Hawes
 header:
   overlay_image: /assets/blog-images/lumen-certs/lumen-chamber.png
@@ -9,7 +9,8 @@ header:
 
 Last year we (Opulo) released a new version of the LumenPnP, with completely reworked electronics and cabling. And that means a new pass at certification.
 
-IMAGE lumenpnp v4
+![](https://cdn.shopify.com/s/files/1/0570/4256/7355/files/v4-iso-hero.png?v=1723749409)
+*Used with permission from Opulo*
 
 I brought the LumenPnP up to a testing house about an hour north of Pittsburgh called Keystone Compliance, and they were generous enough to let me film the process and interview a ton of people there. We were scheduled for four days of testing, and my awesome tech Jeremiah ran all the tests on the LumenPnP over those four days.
 
@@ -68,8 +69,6 @@ And because the Lumen could be kicking out waves in any direction or orientation
 
 So then we run the test. First, we do a quick scan of the signals that the antenna is reading. From that scan, we then pick the six highest peaks, called “quasipeaks,” then run a much more thorough test on just those frequencies at every orientation and rotation. If the highest signal from the quasipeak scan is under the red line here (which is the limit dictated by the standard we’re testing against), then we pass! If any one of them is above, then we fail. The quick scan takes around 15 minutes, and six quasipeaks takes just over an hour.
 
-![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/.png)
-
 …and then that’s just *one* frequency band. This tie fighter antenna is only good for a certain range. For higher frequencies, we need to use a different antenna, or “horn” as this type is called, and do the same thing all over again. Radiated emissions *alone* took over a day and a half to complete. And it’s the hardest to pass. Electronics love spitting out EM radiation, and keeping it “quiet” enough to fit the standard is really tricky.
 
 ![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/horn.png)
@@ -79,9 +78,6 @@ But we did it! The Lumen didnt kick out anything disruptive, and we came in unde
 
 Ok, next up is Radiated Immunity! This is also with waves, but the other way around: we emit an electromagnetic field directed at the Lumen and see if it breaks anything. The setup is really similar, still in the chamber with an antenna, but instead of watching the graph, we watch the Lumen. There’s actually cameras in the chamber that let us watch the device under test, and see if it still maintains normal operation while we’re blasting it. It was really cool and deeply stressful watching the Lumen rotate around, holding my breath hoping that something didn't go wrong. And it didnt! Across all the frequency ranges, the Lumen kept operating as normal.
 
-![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/video-feed.JPG)
-*My stressed view as we ran RI tests*
-
 Next we moved on to conducted tests. These are actually run through touching the machine physically. The first one was conducted emissions. This one is pretty boring. We just hook the Lumen up to a fancy electrical outlet that listens to what electrical noise it kicks into the mains power line. If you’re using a good power supply which we do, this test is generally a non-issue. We also passed this without any trouble.
 
 But the real spooky test is conducted immunity. In this one, we pump a ton of voltage and weird power patterns into the Lumen’s power supply and see if it breaks anything.
@@ -90,9 +86,6 @@ But the real spooky test is conducted immunity. In this one, we pump a ton of vo
 *CI tests don't need to happen in the chamber*
 
 And again, no issue! The Lumen took 2k volts repeatedly through mains with all kinds of weird power profiles no problem.
-
-![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/power-test2.JPG)
-*High voltage injection*
 
 And then finally, there were two smaller miscellaneous tests left. Technically they’re radiated immunity and conducted immunity, but they happen on a different bench and are most likely to ruin something, so they’re done last.
 
@@ -109,6 +102,6 @@ And that's it! There were a few other tests that happened and I'm glossing over 
 
 I was absolutely blown away. It’s incredibly rare for this to happen, for a product to pass first try. But the reason that we did is because of the LumenPnP community. Before we went for testing, I asked folks to help me look for potential issues with the machine before going in for testing, and we made a ton of changes to the design as a result of all the feedback. There is no world in which we would have passed first try without the LumenPnP dev community helping us refine the design.
 
-How much did all this cost? Four days of testing and running the 13 tests that we needed cost us $9,250 from Keystone. The tests happened on a Thursday and Friday and then the following Monday and Tuesday for the last two days. Keystone is a bit of a hike from the Opulo office, so I got a hotel Thursday night and Monday night, $92.75 each night. Plus food and gas, the total was around $9,600. And this is just one cycle of testing, where everything went right first try. If you have a few pesky tests that you can't pass, or need to completely redo whole sections, this could easily run you up to $50k. Testing can be really expensive.
+How much did all this cost? Four days of testing and running the 13 tests that we needed cost us $9,250 from Keystone. The tests happened on a Thursday and Friday and then the following Monday and Tuesday for the last two days. Keystone is a bit of a hike from the Opulo office, so I got a hotel Thursday night and Monday night, $92.75 each night. Plus food and gas, the total was around $9,600. And this is just one cycle of testing, where everything went right first try. If you have a few pesky tests that you can't pass, or need to completely redo whole sections, this could easily run you up to $50k. Testing can be really expensive. It's possible to send your device to a testing house overseas that can do it much cheaper, but there come drawbacks with that approach as well.
 
-CONCLUSION
+We've had excellent luck with the certs process as an organization. The LumenPnP does not require a lot of difficult tests to be compliant, and we have an incredibly knowledgable community that helps us catch things early. We'll be sure to update with any new experiences we have with product certification.

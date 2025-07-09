@@ -16,14 +16,12 @@ main:
 
 handbook:
 - title: Operations
-- title: Certification
+- title: EMC Certification
   children:
     - title: "Intro"
       url: /handbook/certs/start
-    - title: "Types of Certification"
+    - title: "Types of Certs and Tests"
       url: /handbook/certs/types
-    - title: "Which do I need?"
-      url: /handbook/certs/needed
     - title: "Design to Pass"
       url: /handbook/certs/design
     - title: "Going in for Testing"
