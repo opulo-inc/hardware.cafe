@@ -32,7 +32,7 @@ hero_text: " "
 
 ---
 
-### hardware.cafe is a [community driven](repo) resource for people shipping (or trying to ship) a hardware product.
+### hardware.cafe is a [community driven](https://github.com/opulo-inc/hardware.cafe/) resource for people shipping (or trying to ship) a hardware product.
 
 The site is broken into three parts:
 
