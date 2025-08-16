@@ -10,7 +10,7 @@ intro:
 feature_row:
   - image_path: assets/ecad.jpg
     title: "Handbook"
-    excerpt: "Resources about how to ship hardware, ranging from raising VC captial to getting certs"
+    excerpt: "Resources about how to ship hardware, ranging from raising VC capital to getting certs"
     url: "/handbook/start"
     btn_label: "Check it out"
     btn_class: "btn--primary"
