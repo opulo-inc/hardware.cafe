@@ -17,9 +17,9 @@ layout: single
 
 When looking for a company that can perform the tests you need, there's a number of things you should be considering:
 
-- Are they capable of performing the tests I need? For example, do they have anecoic chambers on site? Do they state on their website that they're capable of issueing CE DoCs and FCC SDoCs?
-- Are they capable of determing the exact standards and tests necessary in order for your device to be compliant?
-- Where are they? You should very likely be present for testing, espeically if it's your first time. Is it close enough to drive there every day? Will you have to travel?
+- Are they capable of performing the tests I need? For example, do they have anechoic chambers on site? Do they state on their website that they're capable of issuing CE DoCs and FCC SDoCs?
+- Are they capable of determining the exact standards and tests necessary in order for your device to be compliant?
+- Where are they? You should very likely be present for testing, especially if it's your first time. Is it close enough to drive there every day? Will you have to travel?
 
 Once you've found a few options, it's time to request a quote! Many cert houses have an online form, or just an email address where you can contact them. When you reach out, your email should contain:
 
@@ -42,7 +42,7 @@ It's important that the quote also contains a formal test report, and the Declar
 
 In general, it's good to have a few quotes from a few different certification houses.
 
-**You should get a quote before even designing your product.** When desigining your device, you should know exactly which directives you need to comply with. Don't let yourself be surprised by a test that you need to pass that you didn't consider during the design phase.
+**You should get a quote before even designing your product.** When designing your device, you should know exactly which directives you need to comply with. Don't let yourself be surprised by a test that you need to pass that you didn't consider during the design phase.
 
 ## Should you do Pre-Testing?
 
@@ -56,7 +56,7 @@ When performing testing, the device will need to be able to perform its "worst-c
 
 Sometimes this mode is just part of how the device works normally like in the case of a blender, or other times this needs to be a dedicated mode or script to simulate the worst case. If this is true for your device, you'll need to write a "test mode" operation for your device to do this. For example, this mode might refresh the display at the highest frame rate, move all motors at their maximum current, and send data across any communication busses at the highest rate possible during normal operation.
 
-You should also come with a few backups of your device. Many of the tests that are likely to be performed can be destructive, so don't allow failing one test prevent you from running all the other tests you're scheduled for. If your device is large or prohibitavely expensive to provide a few, bring many spare parts instead, and prepare for a hot-swap.
+You should also come with a few backups of your device. Many of the tests that are likely to be performed can be destructive, so don't allow failing one test prevent you from running all the other tests you're scheduled for. If your device is large or prohibitively expensive to provide a few, bring many spare parts instead, and prepare for a hot-swap.
 
 It can also be good to bring:
 
