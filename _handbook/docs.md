@@ -38,7 +38,7 @@ Discourse is the best way to build your own forum. Although conversation might h
 
 ## Export/Render
 
-MCAD automation tools are mostly geared towards exporting as STLs or STEPs for 3D printing, or rendering an image for viewing/BOM usage. Open CAD packages like FreeCAD, OpenSCAD, and CADQuery take the most advantage of this, handling all exports using their CLI interfaces. Proprietary tools can take advantage of automatic rendering by first exporting to an interchange format. See bulk exporting for [Fusion360](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-export-specific-bodies-in-a-file-to-a-STEP-file-from-Fusion-360.html) and [Solidworks](https://help.solidworks.com/2023/english/WhatsNew/c_wn2023_import_export_assembly_step.htm?id=4dca041efcda481ca1e9f214d4725333#:~:text=You%20can%20export%20large%20SOLIDWORKS,assemblies%20as%20atomic%20STEP%20files.).
+MCAD automation tools are mostly geared towards exporting as STLs or STEPs for 3D printing, or rendering an image for viewing/BOM usage. Open CAD packages like FreeCAD, OpenSCAD, and CADQuery take the most advantage of this, handling all exports using their CLI interfaces. Proprietary tools can take advantage of automatic rendering by first exporting to an interchange format. See bulk exporting for [Fusion360](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/How-to-export-specific-bodies-in-a-file-to-a-STEP-file-from-Fusion-360.html) and [SolidWorks](https://help.solidworks.com/2023/english/WhatsNew/c_wn2023_import_export_assembly_step.htm?id=4dca041efcda481ca1e9f214d4725333#:~:text=You%20can%20export%20large%20SOLIDWORKS,assemblies%20as%20atomic%20STEP%20files.).
 
 ### [AutoBOM](https://github.com/opulo-inc/lumenpnp/blob/main/.github/workflows/export-bom.yaml) (Opulo's BOM Generator)
 <span class="badge badge-success">Open Source</span><span class="badge badge-primary">Github CI</span>
@@ -106,5 +106,5 @@ KiCanvas is a fantastic tool for sharing and viewing KiCAD source files. You can
 
 The Github Hardware Viewer is a Chrome extension that allows you to view 3D models and KiCAD source files natively in Github. This tool uses KiCanvas and 3DViewer.net as the rendering engines.
 
-### [Tracespace](https://tracespace.io/view/)
+### [tracespace](https://tracespace.io/view/)
 <span class="badge badge-info">Free Service</span>

@@ -40,7 +40,7 @@ Passing EMC testing can be made much easier by considering passing early on in t
 
 ## Cabling
 
-Cabling can be an issue particualarly for RE tests. Certain lengths of cables act as excellent antennas and are prone to kick out electromagnetic interference, especially if there's high current and high switching speeds running through them. In RE tests, cable emissions typically show up around the 30MHz - 70MHz range. If you see spikes there, it's likely your cabling.
+Cabling can be an issue particularly for RE tests. Certain lengths of cables act as excellent antennas and are prone to kick out electromagnetic interference, especially if there's high current and high switching speeds running through them. In RE tests, cable emissions typically show up around the 30MHz - 70MHz range. If you see spikes there, it's likely your cabling.
 
 ![](https://emcfastpass.com/wp-content/uploads/2014/12/re_v1.gif)
 *Spikes around here are likely a result of cabling*

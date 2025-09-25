@@ -16,7 +16,7 @@ I brought the LumenPnP up to a testing house about an hour north of Pittsburgh c
 
 The two certifications we were going for in this process are FCC which covers the US, and CE which covers Europe. The point of these certifications is largely to check one thing: that the LumenPnP isn’t gonna mess with anything else electronic, and anything else electronic isn't gonna mess with the LumenPnP. We’re checking if it’s gonna play nice. Keystone determined which tests we needed to run in order to be compliant.
 
-Again, this is a broad summary, but there are roughly four types of tests that we run, and they matrix pretty well. On one axis is Conducted (via physical contact), or Radiated (via electromagnetic waves). The other axis is the “direction” of the test, so is the LumenPnP affected by interference (called Immunity), or is the LumenPnP *making* interference (called Emissions). What’s getting messed up, and is it through waves or wires. Again, a huge simplification, and there’s a few that dont neatly fall into this, but that's the general idea.
+Again, this is a broad summary, but there are roughly four types of tests that we run, and they matrix pretty well. On one axis is Conducted (via physical contact), or Radiated (via electromagnetic waves). The other axis is the “direction” of the test, so is the LumenPnP affected by interference (called Immunity), or is the LumenPnP *making* interference (called Emissions). What’s getting messed up, and is it through waves or wires. Again, a huge simplification, and there’s a few that don't neatly fall into this, but that's the general idea.
 
 {% mermaid %}
 ---
@@ -51,7 +51,7 @@ For this radiated emissions test, we check to see what waves it kicks out with a
 ![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/antenna.JPG)
 *The antenna used for the 30MHz - 1GHz frequency range*
 
-The signal is then processed by this thing, which costs literally $200k. Then it goes through a bunch of fancy filters, and then goes into their software which accounts for all the cables and calibration and such, then it spits out the actual reading. It actually talks to the computer outside the chamber using fiber optic cables so the wire doesnt interfere!
+The signal is then processed by this thing, which costs literally $200k. Then it goes through a bunch of fancy filters, and then goes into their software which accounts for all the cables and calibration and such, then it spits out the actual reading. It actually talks to the computer outside the chamber using fiber optic cables so the wire doesn't interfere!
 
 ![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/bulkhead.png)
 *Signals are passed through this heavily shielded bulkhead*
@@ -74,9 +74,9 @@ So then we run the test. First, we do a quick scan of the signals that the anten
 ![Image]({{ site.baseurl }}/assets/blog-images/lumen-certs/horn.png)
 *This horn is used for much higher frequency bands*
 
-But we did it! The Lumen didnt kick out anything disruptive, and we came in under the standard.
+But we did it! The Lumen didn't kick out anything disruptive, and we came in under the standard.
 
-Ok, next up is Radiated Immunity! This is also with waves, but the other way around: we emit an electromagnetic field directed at the Lumen and see if it breaks anything. The setup is really similar, still in the chamber with an antenna, but instead of watching the graph, we watch the Lumen. There’s actually cameras in the chamber that let us watch the device under test, and see if it still maintains normal operation while we’re blasting it. It was really cool and deeply stressful watching the Lumen rotate around, holding my breath hoping that something didn't go wrong. And it didnt! Across all the frequency ranges, the Lumen kept operating as normal.
+Ok, next up is Radiated Immunity! This is also with waves, but the other way around: we emit an electromagnetic field directed at the Lumen and see if it breaks anything. The setup is really similar, still in the chamber with an antenna, but instead of watching the graph, we watch the Lumen. There’s actually cameras in the chamber that let us watch the device under test, and see if it still maintains normal operation while we’re blasting it. It was really cool and deeply stressful watching the Lumen rotate around, holding my breath hoping that something didn't go wrong. And it didn't! Across all the frequency ranges, the Lumen kept operating as normal.
 
 Next we moved on to conducted tests. These are actually run through touching the machine physically. The first one was conducted emissions. This one is pretty boring. We just hook the Lumen up to a fancy electrical outlet that listens to what electrical noise it kicks into the mains power line. If you’re using a good power supply which we do, this test is generally a non-issue. We also passed this without any trouble.
 
@@ -104,4 +104,4 @@ I was absolutely blown away. It’s incredibly rare for this to happen, for a pr
 
 How much did all this cost? Four days of testing and running the 13 tests that we needed cost us $9,250 from Keystone. The tests happened on a Thursday and Friday and then the following Monday and Tuesday for the last two days. Keystone is a bit of a hike from the Opulo office, so I got a hotel Thursday night and Monday night, $92.75 each night. Plus food and gas, the total was around $9,600. And this is just one cycle of testing, where everything went right first try. If you have a few pesky tests that you can't pass, or need to completely redo whole sections, this could easily run you up to $50k. Testing can be really expensive. It's possible to send your device to a testing house overseas that can do it much cheaper, but there come drawbacks with that approach as well.
 
-We've had excellent luck with the certs process as an organization. The LumenPnP does not require a lot of difficult tests to be compliant, and we have an incredibly knowledgable community that helps us catch things early. We'll be sure to update with any new experiences we have with product certification.
+We've had excellent luck with the certs process as an organization. The LumenPnP does not require a lot of difficult tests to be compliant, and we have an incredibly knowledgeable community that helps us catch things early. We'll be sure to update with any new experiences we have with product certification.
